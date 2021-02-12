@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
     <title>Frineds - KokoaTalk</title>
 </head>
+
 <body>
     <div id="status-bar">
         <div class="status-bar__column">
@@ -33,12 +36,42 @@
             <span><i class="fas fa-cog fa-2x"></i></span>
         </div>
     </header>
+    <main class="friends-screen">
+        <a href="#" id="friends-display-link">
+            <i class="fas fa-info-circle"></i>
+            Friends' Names Display
+            <i class="fas fa-chevron-right fa-sm"></i>
+        </a>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="image/user-img.jpg" class="user-component__avatar user-component__avatar-xl" alt="/">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Yun Ho</h4>
+                    <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+                </div>
+            </div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up fa-sm"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="image/user-img.jpg" class="user-component__avatar user-component__avatar-sm" alt="/">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                        <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+                    </div>
+                </div>
+                <div class="user-component_column">
+                    <span>2</span>
+                    <i class="fas fa-chevron-right fa-sm"></i>
+                </div>
+            </div>
+        </div>
 
-    <a href="#" id="friends-display-link">
-        <i class="fas fa-info-circle"></i>
-        Friends' Names Display 
-        <i class="fas fa-chevron-right fa-sm"></i>
-    </a>
+    </main>
 
     <nav class="nav">
         <ul class="nav__list">
@@ -70,4 +103,5 @@
         </ul>
     </nav>
 </body>
+
 </html>
