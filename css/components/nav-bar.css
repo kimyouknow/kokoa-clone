@@ -19,16 +19,6 @@
   position: absolute;
   left: 15px;
   bottom: 20px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: tomato;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  font-weight: 500;
-  color: white;
 }
 .fa-ellipsis-h .nav__notification {
   position: absolute;
