@@ -56,3 +56,6 @@
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
 }
+.user-component__subtitle .fa-exclamation-circle {
+  color: tomato;
+}
