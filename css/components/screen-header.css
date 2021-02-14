@@ -16,3 +16,10 @@
 .header__icons span {
   margin-left: 30px;
 }
+.fa-cog {
+  position: relative;
+}
+.cog__notification {
+  position: absolute;
+  bottom: 30px;
+}

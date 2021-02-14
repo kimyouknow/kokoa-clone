@@ -35,7 +35,7 @@
 
 #login-form input:first-child,
 #login-form input:nth-child(2) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid var(--grey);
   margin-bottom: 15px;
   transition: border-color 0.3s ease-in-out;
 }
@@ -44,7 +44,7 @@
 }
 #login-form input::placeholder {
   font-size: 24px;
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--grey);
 }
 /* button submit */
 #login-form input[type="submit"] {

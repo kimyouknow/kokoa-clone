@@ -5,7 +5,7 @@
   background-color: #f9f9fa;
   padding: 20px 50px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
 }
 .nav__list {
   display: flex;
@@ -22,11 +22,6 @@
 }
 .fa-ellipsis-h .nav__notification {
   position: absolute;
-  display: block;
   left: 30px;
   bottom: 30px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: tomato;
 }
