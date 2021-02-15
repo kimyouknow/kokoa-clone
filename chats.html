@@ -1,107 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="/css/style.css" />
-    <title>Chats - KokoaTalk</title>
-  </head>
 
-  <body>
-    <div id="status-bar">
-      <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <!-- ToDo: 화면 전환 icon -->
-        <span>78%</span>
-        <i class="fas fa-battery-three-quarters fa-lg"></i>
-        <i class="fas fa-bolt"></i>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>Chats - KokoaTalk</title>
+</head>
+
+<body>
+  <div id="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
     </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <!-- ToDo: 화면 전환 icon -->
+      <span>78%</span>
+      <i class="fas fa-battery-three-quarters fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
 
-    <header class="screen-header">
-      <h1 class="header__title">Chats</h1>
-      <div class="header__icons">
-        <span><i class="fas fa-search fa-2x"></i></span>
-        <span><i class="far fa-comment-dots fa-2x"></i></span>
-        <span><i class="fas fa-music fa-2x"></i></span>
-        <span>
-          <a href="settings.html">
-            <i class="fas fa-cog fa-2x"></i>
-            <span class="nav__notification cog__notification"></span>
-          </a>
-        </span>
-      </div>
-    </header>
-    <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="image/user-img.jpg"
-              class="user-component__avatar"
-              alt="/"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">Yun Ho</h4>
-              <h6 class="user-component__subtitle">this text whatever</h6>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <span class="badge">1</span>
+  <header class="screen-header">
+    <h1 class="header__title">Chats</h1>
+    <div class="header__icons">
+      <span><i class="fas fa-search fa-2x"></i></span>
+      <span><i class="far fa-comment-dots fa-2x"></i></span>
+      <span><i class="fas fa-music fa-2x"></i></span>
+      <span>
+        <a href="settings.html">
+          <i class="fas fa-cog fa-2x"></i>
+          <span class="nav__notification cog__notification"></span>
+        </a>
+      </span>
+    </div>
+  </header>
+  <main class="main-screen">
+    <a href="chat.html">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="https://avatars.githubusercontent.com/u/71386219?s=460&v=4" class="user-component__avatar"
+            alt="/" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Yun Ho</h4>
+            <h6 class="user-component__subtitle">this text whatever</h6>
           </div>
         </div>
-      </a>
-    </main>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <span class="badge">1</span>
+        </div>
+      </div>
+    </a>
+  </main>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav_btn">
-          <a class="nav__link" href="friends.html">
-            <i class="far fa-user fa-2x"> </i>
-          </a>
-        </li>
-        <li class="nav_btn">
-          <a class="nav__link" href="chats.html">
-            <i class="fas fa-comment fa-2x">
-              <span class="nav__notification badge notification_animation"
-                >1</span
-              >
-            </i>
-          </a>
-        </li>
-        <li class="nav_btn">
-          <a class="nav__link" href="find.html">
-            <i class="fas fa-search fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav_btn">
-          <a class="nav__link" href="more.html">
-            <i class="fas fa-ellipsis-h fa-2x">
-              <span class="nav__notification"></span>
-            </i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <div id="splash-screen">
-      <i class="fas fa-comment"></i>
-    </div>
-    <div id="no-mobile">
-      <span>Your screen is too big ㅠㅠ</span>
-    </div>
-  </body>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav_btn">
+        <a class="nav__link" href="friends.html">
+          <i class="far fa-user fa-2x"> </i>
+        </a>
+      </li>
+      <li class="nav_btn">
+        <a class="nav__link" href="chats.html">
+          <i class="fas fa-comment fa-2x">
+            <span class="nav__notification badge notification_animation">1</span>
+          </i>
+        </a>
+      </li>
+      <li class="nav_btn">
+        <a class="nav__link" href="find.html">
+          <i class="fas fa-search fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav_btn">
+        <a class="nav__link" href="more.html">
+          <i class="fas fa-ellipsis-h fa-2x">
+            <span class="nav__notification"></span>
+          </i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div id="splash-screen">
+    <i class="fas fa-comment"></i>
+  </div>
+  <div id="no-mobile">
+    <span>Your screen is too big ㅠㅠ</span>
+  </div>
+</body>
+
 </html>
