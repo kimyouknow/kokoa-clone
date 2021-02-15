@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Chat - KokoaTalk</title>
+</head>
+
+<body id="chat-screen">
+    <div id="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <!-- ToDo: 화면 전환 icon -->
+            <span>78%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-screen-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+            <i class="fas fa-chevron-left"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">찌미</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-bars"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chats__timestamp">
+            Monday, February 15, 2021
+        </div>
+        <div class="message-row">
+            <img src="image/user-img.jpg" alt="/">
+            <div class="message-row__content">
+                <span class="message__author">Yun Ho</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">20:35</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">What's up?</span>
+                    <span class="message__time">20:36</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <form class="reply">
+        <div class="reply__column">
+            <button><i class="fas fa-plus"></i></button>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message">
+            <i class="far fa-smile"></i>
+            <button><i class="fas fa-arrow-up"></i></button>
+        </div>
+    </form>
+</body>
+
+</html>
