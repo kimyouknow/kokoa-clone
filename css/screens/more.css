@@ -9,7 +9,6 @@
 }
 .more-suggestions_icons {
   display: flex;
-  margin: 0 18px;
   flex-wrap: wrap;
 }
 .more-suggestions_icon {

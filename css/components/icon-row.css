@@ -1,8 +1,7 @@
 .icon-row {
   display: flex;
   /* justify-content: space-between; */
-  margin: 0 18px;
-  margin-top: 30px;
+  margin-top: 18px;
   flex-wrap: wrap;
 }
 .icon-row__icon {
