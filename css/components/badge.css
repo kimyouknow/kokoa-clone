@@ -30,3 +30,18 @@
   justify-content: center;
   color: white;
 }
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+.notification_animation {
+  animation: notificationAnimation 1s ease-in-out forwards;
+  animation-delay: 1.5s;
+}

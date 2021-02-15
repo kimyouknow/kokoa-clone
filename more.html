@@ -1,140 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>More - KokoaTalk</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fas fa-wifi"></i>
-        </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <!-- ToDo: 화면 전환 icon -->
-            <span>78%</span>
-            <i class="fas fa-battery-three-quarters fa-lg"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <!-- ToDo: 화면 전환 icon -->
+        <span>78%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
 
     <header class="screen-header">
-        <h1 class="header__title">More</h1>
-        <div class="header__icons">
-            <span><i class="fas fa-search fa-2x"></i></span>
-            <span><i class="fas fa-music fa-2x"></i></span>
-            <span>
-                <a href="settings.html">
-                    <i class="fas fa-cog fa-2x"></i>
-                </a>
-            </span>
-        </div>
+      <h1 class="header__title">More</h1>
+      <div class="header__icons">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-music fa-2x"></i></span>
+        <span>
+          <a href="settings.html">
+            <i class="fas fa-cog fa-2x"></i>
+            <span class="nav__notification cog__notification"></span>
+          </a>
+        </span>
+      </div>
     </header>
     <main class="main-screen more-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="image/user-img.jpg" class="user-component__avatar" alt="/">
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Yun Ho</h4>
-                    <h6 class="user-component__subtitle">010-xxxx-xxxx
-                        <i class="fas fa-exclamation-circle"></i>
-                    </h6>
-                </div>
-            </div>
-            <div class="user-component__column">
-                <i class="far fa-comment-alt fa-2x"></i>
-            </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="image/user-img.jpg"
+            class="user-component__avatar"
+            alt="/"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Yun Ho</h4>
+            <h6 class="user-component__subtitle">
+              010-xxxx-xxxx
+              <i class="fas fa-exclamation-circle"></i>
+            </h6>
+          </div>
         </div>
-        <div class="icon-row">
-            <div class="icon-row__icon">
-                <i class="far fa-calendar-check fa-2x"></i>
-                <span>Calendar</span>
-            </div>
-            <div class="icon-row__icon">
-                <i class="far fa-folder fa-2x"></i>
-                <span>Talk Drive</span>
-            </div>
-            <div class="icon-row__icon">
-                <i class="far fa-smile-wink fa-2x"></i>
-                <span>Emotions</span>
-            </div>
-            <div class="icon-row__icon">
-                <i class="fas fa-brush fa-2x"></i>
-                <span>Themes</span>
-            </div>
-            <div class="icon-row__icon">
-                <i class="far fa-credit-card fa-2x"></i>
-                <span>Account</span>
-            </div>
-            <div class="icon-row__icon">
-                <i class="far fa-comments fa-2x"></i>
-                <span>Openchat</span>
-            </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
         </div>
-        <div class="more-suggestions">
-            <h4 class="more-suggestions__title">Suggestions</h4>
-            <div class="more-suggestions_icons">
-                <div class="more-suggestions_icon">
-                    <div class="more-suggestions_icon-img">
-                        <i class="fas fa-quote-right fa-2x"></i>
-                    </div>
-                    <span class="more-suggestions_icon-text">Kokoa Story</span>
-                </div>
-                <div class="more-suggestions_icon">
-                    <div class="more-suggestions_icon-img">
-                        <i class="far fa-kiss-beam fa-2x"></i>
-                    </div>
-                    <span class="more-suggestions_icon-text">Kokoa friends</span>
-                </div>
-                <div class="more-suggestions_icon">
-                    <div class="more-suggestions_icon-img">
-                        <i class="fas fa-gamepad fa-2x"></i>
-                    </div>
-                    <span class="more-suggestions_icon-text">Kokoa Gem</span>
-                </div>
-            </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar-check fa-2x"></i>
+          <span>Calendar</span>
         </div>
+        <div class="icon-row__icon">
+          <i class="far fa-folder fa-2x"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-smile-wink fa-2x"></i>
+          <span>Emotions</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-brush fa-2x"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-credit-card fa-2x"></i>
+          <span>Account</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-comments fa-2x"></i>
+          <span>Openchat</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions_icons">
+          <div class="more-suggestions_icon">
+            <div class="more-suggestions_icon-img">
+              <i class="fas fa-quote-right fa-2x"></i>
+            </div>
+            <span class="more-suggestions_icon-text">Kokoa Story</span>
+          </div>
+          <div class="more-suggestions_icon">
+            <div class="more-suggestions_icon-img">
+              <i class="far fa-kiss-beam fa-2x"></i>
+            </div>
+            <span class="more-suggestions_icon-text">Kokoa friends</span>
+          </div>
+          <div class="more-suggestions_icon">
+            <div class="more-suggestions_icon-img">
+              <i class="fas fa-gamepad fa-2x"></i>
+            </div>
+            <span class="more-suggestions_icon-text">Kokoa Gem</span>
+          </div>
+        </div>
+      </div>
     </main>
 
     <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav_btn">
-                <a class="nav__link" href="friends.html">
-                    <i class="far fa-user fa-2x">
-                    </i>
-                </a>
-            </li>
-            <li class="nav_btn">
-                <a class="nav__link" href="chats.html">
-                    <i class="fas fa-comment fa-2x">
-                        <span class="nav__notification badge">1</span>
-                    </i>
-                </a>
-            </li>
-            <li class="nav_btn">
-                <a class="nav__link" href="find.html">
-                    <i class="fas fa-search fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav_btn">
-                <a class="nav__link" href="more.html">
-                    <i class="fas fa-ellipsis-h fa-2x">
-                        <span class="nav__notification"></span>
-                    </i>
-                </a>
-            </li>
-        </ul>
+      <ul class="nav__list">
+        <li class="nav_btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"> </i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="chats.html">
+            <i class="fas fa-comment fa-2x">
+              <span class="nav__notification badge notification_animation"
+                >1</span
+              >
+            </i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="more.html">
+            <i class="fas fa-ellipsis-h fa-2x">
+              <span class="nav__notification"></span>
+            </i>
+          </a>
+        </li>
+      </ul>
     </nav>
-</body>
-
+    <div id="splash-screen">
+      <i class="fas fa-comment"></i>
+    </div>
+  </body>
 </html>
